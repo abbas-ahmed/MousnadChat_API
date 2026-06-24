@@ -44,8 +44,8 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "178.105.232.122",
-    "deepark.online",
-    "www.deepark.online"
+    "mousnadchat.deepark.online",
+    "www.mousnadchat.deepark.online"
 ]
 
 # Application definition
