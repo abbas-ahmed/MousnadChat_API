@@ -1,7 +1,6 @@
 
 from django.urls import path
 #from .view import login_page, logout_page, signup_view , profile , profile_user , upload_file , profile_image ,user_image_load , send_cancel_follow
-from .view import *
 from . import views
 urlpatterns = [
 
