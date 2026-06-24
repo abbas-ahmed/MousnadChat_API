@@ -6,7 +6,7 @@ from django.db.models import Q, Max, OuterRef, Subquery
 from .models import Message
 from .serializers import UserSerializer, MessageSerializer , UserInfo_chatSerializer
 from accounts.serializers import  UserInfoSerializer
-from community.serializers import  CommunitySerializer
+#from community.serializers import  CommunitySerializer
 
 from accounts.models import UserProfile
 
