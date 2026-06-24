@@ -58,7 +58,7 @@ class UserInfoSerializer(serializers.ModelSerializer):
         model = UserProfile
         fields = ('id' ,
         'user', 'about',  'profile_image', 'location', 'date_birthday', 'image_',
-         'followers_', 'following_')  # "__all__"  #
+         )  # "__all__"  # 'followers_', 'following_'
 
     def get_image_(self, obj):
         # obj هو UserProfile
