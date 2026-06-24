@@ -11,7 +11,7 @@ urlpatterns = [
     path('logout_apis_token/', views.logout_apis_token, name='logout_apis_token'),
     path('forgot_password/', views.forgot_password, name='forgot_password'),
     path('reset_password/<str:token>', views.reset_password, name='reset_password'),
-    path('SendCancelFollow/', views.SendCancelFollow, name='SendCancelFollow'),
+    #path('SendCancelFollow/', views.SendCancelFollow, name='SendCancelFollow'),
 
     path('about_me/', views.update_user_about, name='update_user'),
     path('upload_image/', views.profile_image, name='upload-image'),
