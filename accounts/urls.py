@@ -1,17 +1,9 @@
 
 from django.urls import path
-from .view import login_page, logout_page, signup_view , profile , profile_user , upload_file , profile_image ,user_image_load , send_cancel_follow
+#from .view import login_page, logout_page, signup_view , profile , profile_user , upload_file , profile_image ,user_image_load , send_cancel_follow
+from .view import *
 from . import views
 urlpatterns = [
-    #path('',   login_page, name="login"),
-    #path('logout/', logout_page, name="logout"),
-    #path('signup/', signup_view, name="signup"),
-    #path('profile/', profile, name="profile"),
-    #path('profile_user/', profile_user, name="profile_user"),
-    #path('upload_file/', upload_file, name="upload_file") ,
-    #path('profile_image/', profile_image, name="profile_image") ,
-    #path('user_image_load/', user_image_load, name="user_image_load") ,
-    #path('send_cancel_follow/<str:foll>/', send_cancel_follow, name='send_cancel_follow'),
 
     path('signIn/', views.SignInView, name='signIn'),
     path('register/', views.register, name='register'),
